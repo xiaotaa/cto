@@ -1,0 +1,10 @@
+{
+  // 配置别名，在node_modules dist中不适用
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": { 
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude":["node_modules","dist"]
+}
